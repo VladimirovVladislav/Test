@@ -36,7 +36,6 @@ Client::Client(QWidget *parent)
             hostCombo->addItem(ipAddressesList.at(i).toString());
     }
 
-    // add localhost addresses
     // добавить локальный адреса
 
     for (int i = 0; i < ipAddressesList.size(); ++i) {

@@ -19,6 +19,8 @@ public:
 private slots:
 
 void slotDebug();
+//void slotServerConnect();
+
 
 private:
     Ui::MainWindow *ui;

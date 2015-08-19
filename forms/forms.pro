@@ -5,7 +5,8 @@
 #-------------------------------------------------
 
 QT       += core gui
-QT += network
+QT       += network
+QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,9 +16,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    client.cpp
+    client.cpp \
+    sendtoserver.cpp
 
 HEADERS  += mainwindow.h \
-    client.h
+    client.h \
+    sendtoserver.h
 
 FORMS    += mainwindow.ui
